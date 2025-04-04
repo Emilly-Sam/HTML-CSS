@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>teste imagen de fundo</title>
     <style>
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+        }
         div.quadrado{
             display: inline-block;
             border: 1px solid black;
@@ -13,13 +16,22 @@
             height: 300px;
             border-radius: 10px;
         }
+        #q1{
+            background-color: lightcoral;
+        }
+        #q2{
+            background-image:linear-gradient(to bottom , rgb(195, 43, 219), pink) ;
+        }
+        #q3{
+            background-image: url('imagens/pattern001.png');
+        }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
-    <div class="quadrado"></div>
-    <div class="quadrado"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
 </body>
 </html>
