@@ -1,8 +1,60 @@
 @charset "UTF-8";
-body{
-    background-color: black;
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900')
+;
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+:root{
+    font-family: "Sriracha"
+
 }
+body{
+    background-color: rgb(142, 0, 0);
+    margin: 0%;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0%;
+}
+h1{
+    margin: 0%;
+    padding-top: 15px;
+    font-family: "Passion One";
+}
+a{
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
 .fundo{
     background-color: white;
+    
     color: black;
+    text-align: justify;
+    padding: 10px;
+    margin: 0;
+}
+#foto1{
+    background: black url(pacote-d012/imagens/background001.jpg) center center no-repeat  fixed;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin: 0;
+    padding: 50px 5px;
+}
+#foto2{
+    background: black url(pacote-d012/imagens/background002.jpg) center center no-repeat fixed;
+    color: black;
+    text-align: justify;
+    padding: 50px 5px;
+}
+.trasparente{
+    background-color: rgba(0, 0, 0, 0.403);
+    color: white;
+    margin-right: 600px;
 }
