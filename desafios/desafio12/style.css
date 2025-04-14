@@ -3,48 +3,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900')
 ;
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-:root{
+/*:root{
     font-family: "Sriracha"
 
+}*/
+* {
+    padding: 0%;
+    margin: 0;
 }
-body{
-    background-color: rgb(142, 0, 0);
-    margin: 0%;
-    padding: 0;
+html , body{
+    background-color: rgb(130, 130, 130);
+    min-height: 100%vh;
 }
-header{
+header {
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 0%;
+    text-align: center;   
 }
-h1{
-    margin: 0%;
-    padding-top: 15px;
-    font-family: "Passion One";
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font:  "Passion One";
+}
+header > p{
+    padding-bottom: 50px;  
 }
 a{
     color: whitesmoke;
+    font-size: 15px;
+    font-weight: bold;
 }
 a:hover{
-    text-decoration: none;
-    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    color: rgb(67, 129, 244);
 }
 
-.fundo{
-    background-color: white;
-    
-    color: black;
-    text-align: justify;
-    padding: 10px;
-    margin: 0;
+section{
+    font: normal 4vw "Sriracha" ;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+
+}
+section.fundo{
+    background-color:blueviolet;
+}
+p.imagem {
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    width: 50vw;
 }
 #foto1{
     background: black url(pacote-d012/imagens/background001.jpg) center center no-repeat  fixed;
     background-size: cover;
-    color: rgb(255, 255, 255);
     text-align: justify;
-    margin: 0;
     padding: 50px 5px;
 }
 #foto2{
@@ -53,8 +65,9 @@ a:hover{
     text-align: justify;
     padding: 50px 5px;
 }
-.trasparente{
-    background-color: rgba(0, 0, 0, 0.403);
+
+footer{
+    background-color: black;
     color: white;
-    margin-right: 600px;
+    text-align: center;
 }
