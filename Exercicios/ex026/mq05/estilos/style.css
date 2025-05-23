@@ -42,11 +42,11 @@ a:hover{
 }
 menu > ul > li > a {
     display: block;
-    background-color: rgb(54, 11, 141);
+    background-color: rgb(40, 7, 107);
     text-align: center;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 10px;
     border-top: 2px solid rgb(41, 1, 59) ;
 }
 main {
