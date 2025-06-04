@@ -16,12 +16,36 @@ header{
     background-color: rgb(55, 83, 182);
     color: white;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 h1{
     border: 1px dotted black;
+    flex: 0 0 180px;
 }
 nav{
     border: 1px dotted black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+}
+header a{
+    background-color: rgb(1, 14, 68);
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+header a:hover{
+    background-color: whitesmoke;
+    color: black;
+    transition: background-color 0.5s
 }
 main{
     background-color: whitesmoke;
