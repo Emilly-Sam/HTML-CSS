@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .contaniner{
+            border: 2px solid purple;
+            display: grid;
+            grid-template-rows: repeat(3, 150px);
+            grid-template-columns: repeat(4,1fr);
+        }
+        .cx1{
+            grid-area: 1 / 1 / 2 / 5;
+            border: 2px dotted blue;
+            background-color: rgb(173, 230, 229);
+
+        }
+        .cx2{
+            grid-area: 2 / 1 / 4 / 3;
+
+            border: 2px dotted green;
+            background-color: lightgreen;}
+        .cx3{
+            grid-area: 2 / 3 / 4 /5;
+            border: 2px dotted red;
+            background-color: lightcoral;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="contaniner">
+        <div class="cx1">
+            <h1>Caixa 1</h1>
+        </div>
+        <div class="cx2">
+            <h1>Caixa 2</h1>
+        </div>
+        <div class="cx3">
+            <h1>Caixa 3</h1>
+        </div>
+    </div>
+</body>
+</html>
